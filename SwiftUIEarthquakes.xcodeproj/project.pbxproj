@@ -22,6 +22,8 @@
 		DADD4AF42B7BB8CC001B38E3 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AF32B7BB8CC001B38E3 /* RefreshButton.swift */; };
 		DADD4AF62B7BB8E7001B38E3 /* ToolbarStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AF52B7BB8E7001B38E3 /* ToolbarStatus.swift */; };
 		DADD4AF82B7BB8FB001B38E3 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AF72B7BB8FB001B38E3 /* DeleteButton.swift */; };
+		DADD4AFA2B7BBE77001B38E3 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AF92B7BBE77001B38E3 /* QuakeError.swift */; };
+		DADD4AFC2B7BC064001B38E3 /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AFB2B7BC064001B38E3 /* GeoJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		DADD4AF32B7BB8CC001B38E3 /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
 		DADD4AF52B7BB8E7001B38E3 /* ToolbarStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStatus.swift; sourceTree = "<group>"; };
 		DADD4AF72B7BB8FB001B38E3 /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
+		DADD4AF92B7BBE77001B38E3 /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
+		DADD4AFB2B7BC064001B38E3 /* GeoJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				DADD4AE12B7BA3B7001B38E3 /* Quake.swift */,
+				DADD4AFB2B7BC064001B38E3 /* GeoJSON.swift */,
 				DADD4AE32B7BA3EB001B38E3 /* Quake+Color.swift */,
+				DADD4AF92B7BBE77001B38E3 /* QuakeError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,9 +205,11 @@
 				DADD4AD52B7BA372001B38E3 /* ContentView.swift in Sources */,
 				DADD4AE42B7BA3EB001B38E3 /* Quake+Color.swift in Sources */,
 				DADD4AF42B7BB8CC001B38E3 /* RefreshButton.swift in Sources */,
+				DADD4AFC2B7BC064001B38E3 /* GeoJSON.swift in Sources */,
 				DADD4AEB2B7BA4C2001B38E3 /* QuakeMagnitude.swift in Sources */,
 				DADD4AE22B7BA3B7001B38E3 /* Quake.swift in Sources */,
 				DADD4AF22B7BB877001B38E3 /* EditButton.swift in Sources */,
+				DADD4AFA2B7BBE77001B38E3 /* QuakeError.swift in Sources */,
 				DADD4AE62B7BA450001B38E3 /* Quakes.swift in Sources */,
 				DADD4AF82B7BB8FB001B38E3 /* DeleteButton.swift in Sources */,
 				DADD4AE92B7BA495001B38E3 /* QuakeRow.swift in Sources */,
