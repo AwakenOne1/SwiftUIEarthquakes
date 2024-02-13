@@ -26,6 +26,9 @@
 		DADD4AFE2B7BCB61001B38E3 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AFD2B7BCB61001B38E3 /* HTTPDataDownloader.swift */; };
 		DADD4B002B7BCDD0001B38E3 /* QuakeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AFF2B7BCDD0001B38E3 /* QuakeClient.swift */; };
 		DADD4B022B7BD020001B38E3 /* QuakesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4B012B7BD020001B38E3 /* QuakesProvider.swift */; };
+		DADD4B042B7BDA2C001B38E3 /* CacheEntryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4B032B7BDA2C001B38E3 /* CacheEntryObject.swift */; };
+		DADD4B062B7BDAD6001B38E3 /* QuakeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4B052B7BDAD6001B38E3 /* QuakeLocation.swift */; };
+		DADD4B082B7BE835001B38E3 /* NSCache+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4B072B7BE835001B38E3 /* NSCache+Subscript.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		DADD4AFD2B7BCB61001B38E3 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
 		DADD4AFF2B7BCDD0001B38E3 /* QuakeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeClient.swift; sourceTree = "<group>"; };
 		DADD4B012B7BD020001B38E3 /* QuakesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakesProvider.swift; sourceTree = "<group>"; };
+		DADD4B032B7BDA2C001B38E3 /* CacheEntryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheEntryObject.swift; sourceTree = "<group>"; };
+		DADD4B052B7BDAD6001B38E3 /* QuakeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeLocation.swift; sourceTree = "<group>"; };
+		DADD4B072B7BE835001B38E3 /* NSCache+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCache+Subscript.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				DADD4AE72B7BA454001B38E3 /* Views */,
-				DADD4AEC2B7BA4EA001B38E3 /* ToolbarContent */,
 				DADD4AE02B7BA3A3001B38E3 /* Models */,
 				DADD4AD12B7BA372001B38E3 /* SwiftUIEarthquakes */,
 				DADD4AD02B7BA372001B38E3 /* Products */,
@@ -103,12 +108,15 @@
 			isa = PBXGroup;
 			children = (
 				DADD4AE12B7BA3B7001B38E3 /* Quake.swift */,
+				DADD4B052B7BDAD6001B38E3 /* QuakeLocation.swift */,
 				DADD4AFF2B7BCDD0001B38E3 /* QuakeClient.swift */,
 				DADD4B012B7BD020001B38E3 /* QuakesProvider.swift */,
 				DADD4AFB2B7BC064001B38E3 /* GeoJSON.swift */,
 				DADD4AE32B7BA3EB001B38E3 /* Quake+Color.swift */,
 				DADD4AF92B7BBE77001B38E3 /* QuakeError.swift */,
 				DADD4AFD2B7BCB61001B38E3 /* HTTPDataDownloader.swift */,
+				DADD4B032B7BDA2C001B38E3 /* CacheEntryObject.swift */,
+				DADD4B072B7BE835001B38E3 /* NSCache+Subscript.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -116,6 +124,7 @@
 		DADD4AE72B7BA454001B38E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DADD4AEC2B7BA4EA001B38E3 /* ToolbarContent */,
 				DADD4AE52B7BA450001B38E3 /* Quakes.swift */,
 				DADD4AE82B7BA495001B38E3 /* QuakeRow.swift */,
 				DADD4AEA2B7BA4C2001B38E3 /* QuakeMagnitude.swift */,
@@ -210,8 +219,11 @@
 				DADD4AF02B7BB4FA001B38E3 /* SelectButton.swift in Sources */,
 				DADD4AF62B7BB8E7001B38E3 /* ToolbarStatus.swift in Sources */,
 				DADD4AE42B7BA3EB001B38E3 /* Quake+Color.swift in Sources */,
+				DADD4B042B7BDA2C001B38E3 /* CacheEntryObject.swift in Sources */,
+				DADD4B082B7BE835001B38E3 /* NSCache+Subscript.swift in Sources */,
 				DADD4AF42B7BB8CC001B38E3 /* RefreshButton.swift in Sources */,
 				DADD4AFC2B7BC064001B38E3 /* GeoJSON.swift in Sources */,
+				DADD4B062B7BDAD6001B38E3 /* QuakeLocation.swift in Sources */,
 				DADD4AEB2B7BA4C2001B38E3 /* QuakeMagnitude.swift in Sources */,
 				DADD4AE22B7BA3B7001B38E3 /* Quake.swift in Sources */,
 				DADD4AF22B7BB877001B38E3 /* EditButton.swift in Sources */,
