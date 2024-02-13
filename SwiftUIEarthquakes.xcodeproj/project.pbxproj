@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DADD4AD32B7BA372001B38E3 /* SwiftUIEarthquakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AD22B7BA372001B38E3 /* SwiftUIEarthquakesApp.swift */; };
-		DADD4AD52B7BA372001B38E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AD42B7BA372001B38E3 /* ContentView.swift */; };
 		DADD4AD72B7BA377001B38E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADD4AD62B7BA377001B38E3 /* Assets.xcassets */; };
 		DADD4ADA2B7BA377001B38E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADD4AD92B7BA377001B38E3 /* Preview Assets.xcassets */; };
 		DADD4AE22B7BA3B7001B38E3 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AE12B7BA3B7001B38E3 /* Quake.swift */; };
@@ -24,12 +23,14 @@
 		DADD4AF82B7BB8FB001B38E3 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AF72B7BB8FB001B38E3 /* DeleteButton.swift */; };
 		DADD4AFA2B7BBE77001B38E3 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AF92B7BBE77001B38E3 /* QuakeError.swift */; };
 		DADD4AFC2B7BC064001B38E3 /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AFB2B7BC064001B38E3 /* GeoJSON.swift */; };
+		DADD4AFE2B7BCB61001B38E3 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AFD2B7BCB61001B38E3 /* HTTPDataDownloader.swift */; };
+		DADD4B002B7BCDD0001B38E3 /* QuakeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AFF2B7BCDD0001B38E3 /* QuakeClient.swift */; };
+		DADD4B022B7BD020001B38E3 /* QuakesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4B012B7BD020001B38E3 /* QuakesProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DADD4ACF2B7BA372001B38E3 /* SwiftUIEarthquakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIEarthquakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADD4AD22B7BA372001B38E3 /* SwiftUIEarthquakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIEarthquakesApp.swift; sourceTree = "<group>"; };
-		DADD4AD42B7BA372001B38E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DADD4AD62B7BA377001B38E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DADD4AD92B7BA377001B38E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DADD4AE12B7BA3B7001B38E3 /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
@@ -45,6 +46,9 @@
 		DADD4AF72B7BB8FB001B38E3 /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
 		DADD4AF92B7BBE77001B38E3 /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
 		DADD4AFB2B7BC064001B38E3 /* GeoJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
+		DADD4AFD2B7BCB61001B38E3 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
+		DADD4AFF2B7BCDD0001B38E3 /* QuakeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeClient.swift; sourceTree = "<group>"; };
+		DADD4B012B7BD020001B38E3 /* QuakesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakesProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				DADD4AD22B7BA372001B38E3 /* SwiftUIEarthquakesApp.swift */,
-				DADD4AD42B7BA372001B38E3 /* ContentView.swift */,
 				DADD4AD62B7BA377001B38E3 /* Assets.xcassets */,
 				DADD4AD82B7BA377001B38E3 /* Preview Content */,
 			);
@@ -100,9 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				DADD4AE12B7BA3B7001B38E3 /* Quake.swift */,
+				DADD4AFF2B7BCDD0001B38E3 /* QuakeClient.swift */,
+				DADD4B012B7BD020001B38E3 /* QuakesProvider.swift */,
 				DADD4AFB2B7BC064001B38E3 /* GeoJSON.swift */,
 				DADD4AE32B7BA3EB001B38E3 /* Quake+Color.swift */,
 				DADD4AF92B7BBE77001B38E3 /* QuakeError.swift */,
+				DADD4AFD2B7BCB61001B38E3 /* HTTPDataDownloader.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,9 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADD4B022B7BD020001B38E3 /* QuakesProvider.swift in Sources */,
 				DADD4AF02B7BB4FA001B38E3 /* SelectButton.swift in Sources */,
 				DADD4AF62B7BB8E7001B38E3 /* ToolbarStatus.swift in Sources */,
-				DADD4AD52B7BA372001B38E3 /* ContentView.swift in Sources */,
 				DADD4AE42B7BA3EB001B38E3 /* Quake+Color.swift in Sources */,
 				DADD4AF42B7BB8CC001B38E3 /* RefreshButton.swift in Sources */,
 				DADD4AFC2B7BC064001B38E3 /* GeoJSON.swift in Sources */,
@@ -212,7 +218,9 @@
 				DADD4AFA2B7BBE77001B38E3 /* QuakeError.swift in Sources */,
 				DADD4AE62B7BA450001B38E3 /* Quakes.swift in Sources */,
 				DADD4AF82B7BB8FB001B38E3 /* DeleteButton.swift in Sources */,
+				DADD4AFE2B7BCB61001B38E3 /* HTTPDataDownloader.swift in Sources */,
 				DADD4AE92B7BA495001B38E3 /* QuakeRow.swift in Sources */,
+				DADD4B002B7BCDD0001B38E3 /* QuakeClient.swift in Sources */,
 				DADD4AD32B7BA372001B38E3 /* SwiftUIEarthquakesApp.swift in Sources */,
 				DADD4AEE2B7BA514001B38E3 /* Quakes+Toolbar.swift in Sources */,
 			);
