@@ -11,6 +11,17 @@
 		DADD4AD52B7BA372001B38E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AD42B7BA372001B38E3 /* ContentView.swift */; };
 		DADD4AD72B7BA377001B38E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADD4AD62B7BA377001B38E3 /* Assets.xcassets */; };
 		DADD4ADA2B7BA377001B38E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADD4AD92B7BA377001B38E3 /* Preview Assets.xcassets */; };
+		DADD4AE22B7BA3B7001B38E3 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AE12B7BA3B7001B38E3 /* Quake.swift */; };
+		DADD4AE42B7BA3EB001B38E3 /* Quake+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AE32B7BA3EB001B38E3 /* Quake+Color.swift */; };
+		DADD4AE62B7BA450001B38E3 /* Quakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AE52B7BA450001B38E3 /* Quakes.swift */; };
+		DADD4AE92B7BA495001B38E3 /* QuakeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AE82B7BA495001B38E3 /* QuakeRow.swift */; };
+		DADD4AEB2B7BA4C2001B38E3 /* QuakeMagnitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AEA2B7BA4C2001B38E3 /* QuakeMagnitude.swift */; };
+		DADD4AEE2B7BA514001B38E3 /* Quakes+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AED2B7BA514001B38E3 /* Quakes+Toolbar.swift */; };
+		DADD4AF02B7BB4FA001B38E3 /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AEF2B7BB4FA001B38E3 /* SelectButton.swift */; };
+		DADD4AF22B7BB877001B38E3 /* EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AF12B7BB877001B38E3 /* EditButton.swift */; };
+		DADD4AF42B7BB8CC001B38E3 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AF32B7BB8CC001B38E3 /* RefreshButton.swift */; };
+		DADD4AF62B7BB8E7001B38E3 /* ToolbarStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AF52B7BB8E7001B38E3 /* ToolbarStatus.swift */; };
+		DADD4AF82B7BB8FB001B38E3 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4AF72B7BB8FB001B38E3 /* DeleteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		DADD4AD42B7BA372001B38E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DADD4AD62B7BA377001B38E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DADD4AD92B7BA377001B38E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DADD4AE12B7BA3B7001B38E3 /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		DADD4AE32B7BA3EB001B38E3 /* Quake+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quake+Color.swift"; sourceTree = "<group>"; };
+		DADD4AE52B7BA450001B38E3 /* Quakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quakes.swift; sourceTree = "<group>"; };
+		DADD4AE82B7BA495001B38E3 /* QuakeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeRow.swift; sourceTree = "<group>"; };
+		DADD4AEA2B7BA4C2001B38E3 /* QuakeMagnitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeMagnitude.swift; sourceTree = "<group>"; };
+		DADD4AED2B7BA514001B38E3 /* Quakes+Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quakes+Toolbar.swift"; sourceTree = "<group>"; };
+		DADD4AEF2B7BB4FA001B38E3 /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
+		DADD4AF12B7BB877001B38E3 /* EditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButton.swift; sourceTree = "<group>"; };
+		DADD4AF32B7BB8CC001B38E3 /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		DADD4AF52B7BB8E7001B38E3 /* ToolbarStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStatus.swift; sourceTree = "<group>"; };
+		DADD4AF72B7BB8FB001B38E3 /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,9 @@
 		DADD4AC62B7BA372001B38E3 = {
 			isa = PBXGroup;
 			children = (
+				DADD4AE72B7BA454001B38E3 /* Views */,
+				DADD4AEC2B7BA4EA001B38E3 /* ToolbarContent */,
+				DADD4AE02B7BA3A3001B38E3 /* Models */,
 				DADD4AD12B7BA372001B38E3 /* SwiftUIEarthquakes */,
 				DADD4AD02B7BA372001B38E3 /* Products */,
 			);
@@ -65,6 +90,38 @@
 				DADD4AD92B7BA377001B38E3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DADD4AE02B7BA3A3001B38E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DADD4AE12B7BA3B7001B38E3 /* Quake.swift */,
+				DADD4AE32B7BA3EB001B38E3 /* Quake+Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DADD4AE72B7BA454001B38E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DADD4AE52B7BA450001B38E3 /* Quakes.swift */,
+				DADD4AE82B7BA495001B38E3 /* QuakeRow.swift */,
+				DADD4AEA2B7BA4C2001B38E3 /* QuakeMagnitude.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DADD4AEC2B7BA4EA001B38E3 /* ToolbarContent */ = {
+			isa = PBXGroup;
+			children = (
+				DADD4AED2B7BA514001B38E3 /* Quakes+Toolbar.swift */,
+				DADD4AEF2B7BB4FA001B38E3 /* SelectButton.swift */,
+				DADD4AF12B7BB877001B38E3 /* EditButton.swift */,
+				DADD4AF32B7BB8CC001B38E3 /* RefreshButton.swift */,
+				DADD4AF52B7BB8E7001B38E3 /* ToolbarStatus.swift */,
+				DADD4AF72B7BB8FB001B38E3 /* DeleteButton.swift */,
+			);
+			path = ToolbarContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADD4AF02B7BB4FA001B38E3 /* SelectButton.swift in Sources */,
+				DADD4AF62B7BB8E7001B38E3 /* ToolbarStatus.swift in Sources */,
 				DADD4AD52B7BA372001B38E3 /* ContentView.swift in Sources */,
+				DADD4AE42B7BA3EB001B38E3 /* Quake+Color.swift in Sources */,
+				DADD4AF42B7BB8CC001B38E3 /* RefreshButton.swift in Sources */,
+				DADD4AEB2B7BA4C2001B38E3 /* QuakeMagnitude.swift in Sources */,
+				DADD4AE22B7BA3B7001B38E3 /* Quake.swift in Sources */,
+				DADD4AF22B7BB877001B38E3 /* EditButton.swift in Sources */,
+				DADD4AE62B7BA450001B38E3 /* Quakes.swift in Sources */,
+				DADD4AF82B7BB8FB001B38E3 /* DeleteButton.swift in Sources */,
+				DADD4AE92B7BA495001B38E3 /* QuakeRow.swift in Sources */,
 				DADD4AD32B7BA372001B38E3 /* SwiftUIEarthquakesApp.swift in Sources */,
+				DADD4AEE2B7BA514001B38E3 /* Quakes+Toolbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +348,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +378,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
