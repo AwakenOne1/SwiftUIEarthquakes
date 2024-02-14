@@ -29,6 +29,8 @@
 		DADD4B042B7BDA2C001B38E3 /* CacheEntryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4B032B7BDA2C001B38E3 /* CacheEntryObject.swift */; };
 		DADD4B062B7BDAD6001B38E3 /* QuakeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4B052B7BDAD6001B38E3 /* QuakeLocation.swift */; };
 		DADD4B082B7BE835001B38E3 /* NSCache+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4B072B7BE835001B38E3 /* NSCache+Subscript.swift */; };
+		DADD4B0A2B7CFF4C001B38E3 /* QuakeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4B092B7CFF4C001B38E3 /* QuakeDetail.swift */; };
+		DADD4B0E2B7D019D001B38E3 /* QakeDetailMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD4B0D2B7D019D001B38E3 /* QakeDetailMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		DADD4B032B7BDA2C001B38E3 /* CacheEntryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheEntryObject.swift; sourceTree = "<group>"; };
 		DADD4B052B7BDAD6001B38E3 /* QuakeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeLocation.swift; sourceTree = "<group>"; };
 		DADD4B072B7BE835001B38E3 /* NSCache+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCache+Subscript.swift"; sourceTree = "<group>"; };
+		DADD4B092B7CFF4C001B38E3 /* QuakeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeDetail.swift; sourceTree = "<group>"; };
+		DADD4B0D2B7D019D001B38E3 /* QakeDetailMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QakeDetailMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 				DADD4AF32B7BB8CC001B38E3 /* RefreshButton.swift */,
 				DADD4AF52B7BB8E7001B38E3 /* ToolbarStatus.swift */,
 				DADD4AF72B7BB8FB001B38E3 /* DeleteButton.swift */,
+				DADD4B092B7CFF4C001B38E3 /* QuakeDetail.swift */,
+				DADD4B0D2B7D019D001B38E3 /* QakeDetailMap.swift */,
 			);
 			path = ToolbarContent;
 			sourceTree = "<group>";
@@ -219,6 +225,7 @@
 				DADD4AF02B7BB4FA001B38E3 /* SelectButton.swift in Sources */,
 				DADD4AF62B7BB8E7001B38E3 /* ToolbarStatus.swift in Sources */,
 				DADD4AE42B7BA3EB001B38E3 /* Quake+Color.swift in Sources */,
+				DADD4B0A2B7CFF4C001B38E3 /* QuakeDetail.swift in Sources */,
 				DADD4B042B7BDA2C001B38E3 /* CacheEntryObject.swift in Sources */,
 				DADD4B082B7BE835001B38E3 /* NSCache+Subscript.swift in Sources */,
 				DADD4AF42B7BB8CC001B38E3 /* RefreshButton.swift in Sources */,
@@ -231,6 +238,7 @@
 				DADD4AE62B7BA450001B38E3 /* Quakes.swift in Sources */,
 				DADD4AF82B7BB8FB001B38E3 /* DeleteButton.swift in Sources */,
 				DADD4AFE2B7BCB61001B38E3 /* HTTPDataDownloader.swift in Sources */,
+				DADD4B0E2B7D019D001B38E3 /* QakeDetailMap.swift in Sources */,
 				DADD4AE92B7BA495001B38E3 /* QuakeRow.swift in Sources */,
 				DADD4B002B7BCDD0001B38E3 /* QuakeClient.swift in Sources */,
 				DADD4AD32B7BA372001B38E3 /* SwiftUIEarthquakesApp.swift in Sources */,
