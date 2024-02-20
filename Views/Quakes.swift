@@ -60,6 +60,7 @@ extension Quakes {
     func deleteQuakes(at offsets: IndexSet) {
         provider.deleteQuakes(atOffsets: offsets)
     }
+    
     func deleteQuakes(for codes: Set<String>) {
         var offsetsToDelete: IndexSet = []
         for (index, element) in provider.quakes.enumerated() {
@@ -70,6 +71,7 @@ extension Quakes {
         deleteQuakes(at: offsetsToDelete)
         selection.removeAll()
     }
+    
     func fetchQuakes() async {
         isLoading = true
         do {

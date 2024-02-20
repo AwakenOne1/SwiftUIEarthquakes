@@ -1,9 +1,3 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A class to fetch data from the remote server and save it to the Core Data store.
-*/
 
 import Foundation
 
