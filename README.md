@@ -1,2 +1,3 @@
 # SwiftUIEarthquakes
-simple SwiftUI app displaying info about earthquakes
+
+SwiftUI app displaying info about earthquakes
